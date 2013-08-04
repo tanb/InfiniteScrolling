@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A719CEC017ABC0D700098A14 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A719CEBF17ABC0D700098A14 /* UIKit.framework */; };
+		A719CEC217ABC0D700098A14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A719CEC117ABC0D700098A14 /* Foundation.framework */; };
+		A719CEC417ABC0D700098A14 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A719CEC317ABC0D700098A14 /* CoreGraphics.framework */; };
+		A719CECA17ABC0D700098A14 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A719CEC817ABC0D700098A14 /* InfoPlist.strings */; };
+		A719CECC17ABC0D700098A14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A719CECB17ABC0D700098A14 /* main.m */; };
+		A719CED017ABC0D700098A14 /* TBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A719CECF17ABC0D700098A14 /* TBAppDelegate.m */; };
+		A719CED217ABC0D700098A14 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A719CED117ABC0D700098A14 /* Default.png */; };
+		A719CED417ABC0D700098A14 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A719CED317ABC0D700098A14 /* Default@2x.png */; };
+		A719CED617ABC0D700098A14 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A719CED517ABC0D700098A14 /* Default-568h@2x.png */; };
+		A719CED917ABC0D700098A14 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A719CED717ABC0D700098A14 /* MainStoryboard.storyboard */; };
+		A719CEE417ABC21000098A14 /* DatePickerExperimentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A719CEE317ABC21000098A14 /* DatePickerExperimentViewController.m */; };
+		A719CEE717ABCE9D00098A14 /* InfiniteScrollingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A719CEE617ABCE9D00098A14 /* InfiniteScrollingTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A719CEBC17ABC0D700098A14 /* InfiniteScrolling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfiniteScrolling.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A719CEBF17ABC0D700098A14 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A719CEC117ABC0D700098A14 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A719CEC317ABC0D700098A14 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A719CEC717ABC0D700098A14 /* InfiniteScrolling-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InfiniteScrolling-Info.plist"; sourceTree = "<group>"; };
+		A719CEC917ABC0D700098A14 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A719CECB17ABC0D700098A14 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A719CECD17ABC0D700098A14 /* InfiniteScrolling-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InfiniteScrolling-Prefix.pch"; sourceTree = "<group>"; };
+		A719CECE17ABC0D700098A14 /* TBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBAppDelegate.h; sourceTree = "<group>"; };
+		A719CECF17ABC0D700098A14 /* TBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBAppDelegate.m; sourceTree = "<group>"; };
+		A719CED117ABC0D700098A14 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A719CED317ABC0D700098A14 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A719CED517ABC0D700098A14 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A719CED817ABC0D700098A14 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		A719CEE217ABC21000098A14 /* DatePickerExperimentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatePickerExperimentViewController.h; sourceTree = "<group>"; };
+		A719CEE317ABC21000098A14 /* DatePickerExperimentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatePickerExperimentViewController.m; sourceTree = "<group>"; };
+		A719CEE517ABCE9D00098A14 /* InfiniteScrollingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfiniteScrollingTableViewController.h; sourceTree = "<group>"; };
+		A719CEE617ABCE9D00098A14 /* InfiniteScrollingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfiniteScrollingTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A719CEB917ABC0D700098A14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A719CEC017ABC0D700098A14 /* UIKit.framework in Frameworks */,
+				A719CEC217ABC0D700098A14 /* Foundation.framework in Frameworks */,
+				A719CEC417ABC0D700098A14 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A719CEB317ABC0D700098A14 = {
+			isa = PBXGroup;
+			children = (
+				A719CEC517ABC0D700098A14 /* InfiniteScrolling */,
+				A719CEBE17ABC0D700098A14 /* Frameworks */,
+				A719CEBD17ABC0D700098A14 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A719CEBD17ABC0D700098A14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A719CEBC17ABC0D700098A14 /* InfiniteScrolling.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A719CEBE17ABC0D700098A14 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A719CEBF17ABC0D700098A14 /* UIKit.framework */,
+				A719CEC117ABC0D700098A14 /* Foundation.framework */,
+				A719CEC317ABC0D700098A14 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A719CEC517ABC0D700098A14 /* InfiniteScrolling */ = {
+			isa = PBXGroup;
+			children = (
+				A719CECE17ABC0D700098A14 /* TBAppDelegate.h */,
+				A719CECF17ABC0D700098A14 /* TBAppDelegate.m */,
+				A719CED717ABC0D700098A14 /* MainStoryboard.storyboard */,
+				A719CEE217ABC21000098A14 /* DatePickerExperimentViewController.h */,
+				A719CEE317ABC21000098A14 /* DatePickerExperimentViewController.m */,
+				A719CEE517ABCE9D00098A14 /* InfiniteScrollingTableViewController.h */,
+				A719CEE617ABCE9D00098A14 /* InfiniteScrollingTableViewController.m */,
+				A719CEC617ABC0D700098A14 /* Supporting Files */,
+			);
+			path = InfiniteScrolling;
+			sourceTree = "<group>";
+		};
+		A719CEC617ABC0D700098A14 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A719CEC717ABC0D700098A14 /* InfiniteScrolling-Info.plist */,
+				A719CEC817ABC0D700098A14 /* InfoPlist.strings */,
+				A719CECB17ABC0D700098A14 /* main.m */,
+				A719CECD17ABC0D700098A14 /* InfiniteScrolling-Prefix.pch */,
+				A719CED117ABC0D700098A14 /* Default.png */,
+				A719CED317ABC0D700098A14 /* Default@2x.png */,
+				A719CED517ABC0D700098A14 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A719CEBB17ABC0D700098A14 /* InfiniteScrolling */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A719CEDF17ABC0D700098A14 /* Build configuration list for PBXNativeTarget "InfiniteScrolling" */;
+			buildPhases = (
+				A719CEB817ABC0D700098A14 /* Sources */,
+				A719CEB917ABC0D700098A14 /* Frameworks */,
+				A719CEBA17ABC0D700098A14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InfiniteScrolling;
+			productName = InfiniteScrolling;
+			productReference = A719CEBC17ABC0D700098A14 /* InfiniteScrolling.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A719CEB417ABC0D700098A14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TB;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = tanB;
+			};
+			buildConfigurationList = A719CEB717ABC0D700098A14 /* Build configuration list for PBXProject "InfiniteScrolling" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A719CEB317ABC0D700098A14;
+			productRefGroup = A719CEBD17ABC0D700098A14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A719CEBB17ABC0D700098A14 /* InfiniteScrolling */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A719CEBA17ABC0D700098A14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A719CECA17ABC0D700098A14 /* InfoPlist.strings in Resources */,
+				A719CED217ABC0D700098A14 /* Default.png in Resources */,
+				A719CED417ABC0D700098A14 /* Default@2x.png in Resources */,
+				A719CED617ABC0D700098A14 /* Default-568h@2x.png in Resources */,
+				A719CED917ABC0D700098A14 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A719CEB817ABC0D700098A14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A719CECC17ABC0D700098A14 /* main.m in Sources */,
+				A719CED017ABC0D700098A14 /* TBAppDelegate.m in Sources */,
+				A719CEE417ABC21000098A14 /* DatePickerExperimentViewController.m in Sources */,
+				A719CEE717ABCE9D00098A14 /* InfiniteScrollingTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A719CEC817ABC0D700098A14 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A719CEC917ABC0D700098A14 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A719CED717ABC0D700098A14 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A719CED817ABC0D700098A14 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A719CEDD17ABC0D700098A14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A719CEDE17ABC0D700098A14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A719CEE017ABC0D700098A14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InfiniteScrolling/InfiniteScrolling-Prefix.pch";
+				INFOPLIST_FILE = "InfiniteScrolling/InfiniteScrolling-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A719CEE117ABC0D700098A14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InfiniteScrolling/InfiniteScrolling-Prefix.pch";
+				INFOPLIST_FILE = "InfiniteScrolling/InfiniteScrolling-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A719CEB717ABC0D700098A14 /* Build configuration list for PBXProject "InfiniteScrolling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A719CEDD17ABC0D700098A14 /* Debug */,
+				A719CEDE17ABC0D700098A14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A719CEDF17ABC0D700098A14 /* Build configuration list for PBXNativeTarget "InfiniteScrolling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A719CEE017ABC0D700098A14 /* Debug */,
+				A719CEE117ABC0D700098A14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A719CEB417ABC0D700098A14 /* Project object */;
+}
